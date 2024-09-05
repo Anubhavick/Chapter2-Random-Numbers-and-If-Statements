@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title></title>
+</head>
+
+<body>
+  <!--
+certain types of games use multisided dice. write program  that ask 
+the user how many sides he or she wants, then roll a die with that many sides and 
+return the result.    
+-->
+  <script>
+    var side;
+    var role = 0;
+    var die = "";
+
+    side = prompt("choose the number of side of your dice ;)")
+
+    if (side == "6") {
+      role = Math.floor(Math.random() * 6) + 1;
+      switch (role) {
+
+        case 1:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|    *     |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 2:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|  *   *   |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 3:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|  *  *  * |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 4:
+          die = "|---------|\n";
+          die += "|  *    * |\n";
+          die += "|         |\n";
+          die += "|  *    * |\n";
+          die += "|---------|\n";
+          break;
+
+        case 5:
+          die = "|---------|\n";
+          die += "| *     * |\n";
+          die += "|    *    |\n";
+          die += "| *     * |\n";
+          die += "|---------|\n";
+          break;
+
+        case 6:
+          die = "|---------|\n";
+          die += "| *    *  |\n";
+          die += "| *    *  |\n";
+          die += "| *    *  |\n";
+          die += "|---------|\n";
+          break;
+        default:
+          die = "error"
+      }
+      alert(die);
+    }
+
+    if (side == "8") {
+      role = Math.floor(Math.random() * 8) + 1;
+      switch (role) {
+
+        case 1:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|    *     |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 2:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|  *   *   |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 3:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|  *  *  * |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 4:
+          die = "|---------|\n";
+          die += "|  *    * |\n";
+          die += "|         |\n";
+          die += "|  *    * |\n";
+          die += "|---------|\n";
+          break;
+
+        case 5:
+          die = "|---------|\n";
+          die += "| *     * |\n";
+          die += "|    *    |\n";
+          die += "| *     * |\n";
+          die += "|---------|\n";
+          break;
+
+        case 6:
+          die = "|---------|\n";
+          die += "| *    *  |\n";
+          die += "| *    *  |\n";
+          die += "| *    *  |\n";
+          die += "|---------|\n";
+          break;
+
+        case 7:
+          die = "|----------|\n";
+          die += "| *     *  |\n";
+          die += "| *  *  *  |\n";
+          die += "| *     *  |\n";
+          die += "|----------|\n";
+          break;
+
+        case 8:
+          die = "|----------|\n";
+          die += "| *      * |\n";
+          die += "| * *  * * |\n";
+          die += "| *      * |\n";
+          die += "|----------|\n";
+          break;
+
+        default:
+          die = "error"
+      }
+      alert(die);
+    }
+
+    if (side == "10") {
+      role = Math.floor(Math.random() * 10) + 1;
+      switch (role) {
+
+        case 1:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|    *     |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 2:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|  *   *   |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 3:
+          die = "|----------|\n";
+          die += "|          |\n";
+          die += "|  *  *  * |\n";
+          die += "|          |\n";
+          die += "|----------|\n";
+          break;
+
+        case 4:
+          die = "|---------|\n";
+          die += "|  *    * |\n";
+          die += "|         |\n";
+          die += "|  *    * |\n";
+          die += "|---------|\n";
+          break;
+
+        case 5:
+          die = "|---------|\n";
+          die += "| *     * |\n";
+          die += "|    *    |\n";
+          die += "| *     * |\n";
+          die += "|---------|\n";
+          break;
+
+        case 6:
+          die = "|---------|\n";
+          die += "| *    *  |\n";
+          die += "| *    *  |\n";
+          die += "| *    *  |\n";
+          die += "|---------|\n";
+          break;
+
+        case 7:
+          die = "|----------|\n";
+          die += "| *     *  |\n";
+          die += "| *  *  *  |\n";
+          die += "| *     *  |\n";
+          die += "|----------|\n";
+          break;
+
+        case 8:
+          die = "|----------|\n";
+          die += "| *      * |\n";
+          die += "| * *  * * |\n";
+          die += "| *      * |\n";
+          die += "|----------|\n";
+          break;
+
+        case 9:
+          die = "|----------|\n";
+          die += "| *     *  |\n";
+          die += "| *  *  *  |\n";
+          die += "| *     *  |\n";
+          die += "| *     *  |\n";
+          die += "|----------|\n";
+          break;
+
+        case 10:
+          die = "|----------|\n";
+          die += "| *     *  |\n";
+          die += "| *  *  *  |\n";
+          die += "| *  *  *  |\n";
+          die += "| *     *  |\n";
+          die += "|----------|\n";
+          break;
+
+        default:
+          die = "error"
+      }
+      alert(die);
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>
